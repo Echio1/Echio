@@ -1,0 +1,23 @@
+.footer{
+    /* height: 10rem; */
+    margin-top: 10vh;
+    background-color: #1F8088 !important;
+    color: #fff;
+}
+.logo{
+    height: 3rem;
+    width: 3rem;
+
+}
+
+.footerIcons{
+    
+    color: #fff;
+    /* font-size: 3rem; */
+
+}
+
+.footer-p p{
+    margin-bottom: 0;
+}
+

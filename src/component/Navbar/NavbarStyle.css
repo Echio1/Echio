@@ -1,0 +1,33 @@
+.navbar{
+    background-color: transparent !important;
+
+}
+
+.logo{
+    height: 3.5rem;
+    width: 3.5rem;
+
+}
+.navlink{
+    color: #000 !important;
+}
+/* .button{
+
+    margin-left:75%;
+    color: #fff !important;
+    padding: 8px 0;
+    text-align: center;
+    justify-content: end;
+    align-items: flex-end;
+    background-color: #09566E;
+    width: 25%;
+    border-radius: 100px;
+    border-color: #09566E;
+
+}
+.button:hover, .button:focus{
+    background-color: #0C9FB3;
+    padding: 10px 0;
+    border-style: none;
+} */
+
