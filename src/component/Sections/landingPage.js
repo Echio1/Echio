@@ -15,7 +15,21 @@ import NavBar from "../Navbar/Navbar";
 import icon1 from '../../images/starIcon.svg'
 import icon2 from '../../images/Linkicon.svg'
 import icon3  from '../../images/tickIcon.svg'
+import clientB  from '../../images/clientB.svg'
+
+import client1  from '../../images/client1.png'
+import client2  from '../../images/client2.png'
+import client3  from '../../images/client3.png'
+import client4  from '../../images/client4.png'
+
+import rocket  from '../../images/rocket.svg'
+
+
+
+
+
 import Cards from "../Cards/cards";
+import QCards from "../QuoteCards/qCards";
 
 const LandingPage = () => {
   return (
@@ -161,6 +175,29 @@ const LandingPage = () => {
               <div className='col-lg-3 col-sm-4 py-3'> <Cards heading="Sponsorships" t1="Event" t2="Tournament" t3="Host" button="Get started"/></div>
           </div>
         </div>
+
+{/********************* Clients Testimony *********************/}
+          <div className="my-5"  style={{backgroundImage: `url(${clientB})`,paddingTop:"4.2rem", paddingBottom:"4.2rem"}}>
+            <div className="row pt-5 mt-4 px-4 d-flex justify-content-center">
+              <p className="my-5" style={{fontSize:"3rem",fontWeight:"800",color:"#E3FEF9"}}>What Our Clients Says</p>
+            </div>
+            <div className="row  px-4 d-flex justify-content-center">
+              <div className="col-3">
+                <QCards Source={client1} Head="Angela" Text="Its been a great journey, Echio is a brand you can trust "/> 
+              </div>
+              <div className="col-3">
+                <QCards Source={client2} Head="Mark" Text="Its been a great journey, Echio is a brand you can trust "/> 
+              </div>
+            </div>
+            <div className="row mb-5  px-4 d-flex justify-content-center">
+              <div className="col-3">
+                <QCards Source={client3} Head="Bruce" Text="Its been a great journey, Echio is a brand you can trust "/> 
+              </div>
+              <div className="col-3">
+                <QCards Source={client4} Head="Kety" Text="Its been a great journey, Echio is a brand you can trust "/> 
+              </div>
+            </div>
+          </div>
 {/******************** Contact us Form ********************/}
           <div style={{backgroundColor:"#fff"}} className="row justify-content-center py-5 formRow">
             <div  className="col-lg-12 px-5 my-4 border-right-light">
@@ -201,6 +238,18 @@ const LandingPage = () => {
               </form>
             </div>
           </div>
+          <div style={{marginRight:"1rem", marginLeft:"1rem"}} className="d-flex justify-content-center rounded grad mb-2">
+              <div className="row p-3 d-flex align-items-center">
+                <div className="col-2">
+                  <img style={{height:"52px"}} src={rocket} alt="rocket"/>
+                </div>
+                <div className="col-2">
+                  <p style={{fontSize:"1rem", color:"#fff"}}>Start your Journey Now with Us!</p>
+                </div>
+
+              </div>
+          </div>
+
        
     </>
   );

@@ -97,6 +97,11 @@
   box-shadow: none !important;
 }
 
+/* Gradient Box (at the end) */
+.grad{
+  background: linear-gradient(90deg, #3AD3DF 20.31%, #5AEFFB 47.4%, #00DBDE 82.81%);
+
+}
 .iconsMain{
   height: 120px;
   width: 120px;
