@@ -15,6 +15,7 @@ import NavBar from "../Navbar/Navbar";
 import icon1 from '../../images/starIcon.svg'
 import icon2 from '../../images/Linkicon.svg'
 import icon3  from '../../images/tickIcon.svg'
+import Cards from "../Cards/cards";
 
 const LandingPage = () => {
   return (
@@ -23,7 +24,7 @@ const LandingPage = () => {
           <div className="container">
             <div className="row d-flex">
               <div className="col-md-7 col-sm-12 d-flex justify-content-center align-items-center">
-                <h1>
+                <h1 style={{overflowY: "hidden"}}>
                   "There are <mark className="diffColor">exceptional</mark> people
                   out there who are capable of starting
                   <mark className="diffColor">epidemics</mark>. All we have to do is{" "}
@@ -36,29 +37,29 @@ const LandingPage = () => {
             </div>
 
             <div className="row d-flex">
-              <div className="mailHolder">
+              <div className="mb-5 mailHolder">
               {/* <input placeholder="Enter your email" className="mailPara"></input> */}
-                <Button className="mailButton">Get Started</Button>
+                <Button className=" mailButton">Get Started</Button>
               </div>
             </div>
 
           </div>
           
 
-          <div style={{marginTop:"8rem"}} className="row d-flex  justify-content-end">
+          <div className="row d-flex  justify-content-end">
 
-              <div className="col-lg-2 ">
+              {/* <div className="col-lg-2 ">
                 <h3></h3>
               </div>
               <div className="col-2"></div>
-              <div className="col-2"></div>
+              <div className="col-2"></div> */}
               <div className="col-4">
                 <img src={row3img} alt="our clients" />
               </div>
           </div>
 
           <div className="container">
-              <div style={{paddingTop:"20vh"}} className="row m-0 d-flex justify-content-center text-center">
+              <div  className="row pt-5 mt-4 m-0 d-flex justify-content-center text-center">
                 <div  className="col"><h1 style={{ fontSize:"4rem", paddingBottom:"2rem"}}>Our Vision</h1> </div>
               </div>
 
@@ -78,8 +79,9 @@ const LandingPage = () => {
               </div>
 
           </div>
+{/******************** Influencers Section ********************/}
 
-          <div style={{paddingTop:"20vh"}} className="row m-0 d-flex justify-content-center text-center">
+          <div className="row pt-5 mt-4 m-0 d-flex justify-content-center text-center">
             <div  className="col"><h1 style={{ fontSize:"4rem", paddingBottom:"2rem"}}>Influencers</h1> </div>
           </div>
 
@@ -120,15 +122,14 @@ const LandingPage = () => {
                   </div>
               </div>
           </div>
-
+{/******************* Brand Stat Section ****************** */}
           <div style={{paddingTop:"20vh"}} className="row d-flex px-5 align-items-start ">
-              <strong  style={{fontSize:"3.5rem", paddingBottom:"2rem"}} >Our Brand Success</strong>
+              <strong  style={{fontSize:"3.5rem", paddingBottom:"2rem"}} >Our Brand's Success</strong>
               <p style={{color:"#1F8088",fontSize:"1.2rem"}} className="w-50 ">Influencer Marketing is a type of social media marketing that uses endorsements and 
               product mentions from influencers–individuals who have a dedicated social following and
                are viewed as experts within their niche. Influencer marketing works because of the high
                 amount of trust that social influencers have built up with their following</p>
           </div>
-
           <div className="container w-50">
             <div className="row  d-flex">
               <p style={{fontSize:"1.5rem",fontWeight:"700", color:"#1A1D32",letterSpacing:"2px"}} className="w-100 mb-0 text-center">Assisted out</p>
@@ -142,38 +143,64 @@ const LandingPage = () => {
             </div>
           </div>
 
-          <div className="row d-flex align-items-center">
-            <img src={brandLogos} alt="Associated Brands"/>
+{/****************** White background brand img *****************/}
 
+          <div className="row d-flex align-items-center w-100 px-0 mx-0 mb-4">
+            <img src={brandLogos} alt="Associated Brands"/>
           </div>
 
-          <div className="row py-5 formRow">
-                    <div  className="col-lg-6 col-sm-12 px-5 my-4 border-right-light">
-                      <form className="form container ">
-                        <h3 className="contactHeading">
-                          <strong  style={{ fontSize: "3.5rem", paddingRight: "10px", color: "#c7c9cc"}}>/</strong>
-                          Contact
-                        </h3>
-                        <div className="mb-3 itemBox form-group" controlId="formBasicName">
-                          <input type="text" name="name" className="formItems form-control" placeholder="Name" required
-                          />
-                        </div>
-                        <div className="mb-3 itemBox form-group" controlId="formBasicEmail">
-                          <input className="formItems  message" type="email" placeholder="Enter email" required
-                          />
-                        </div>
+{/******************* Service Cards Section *******************/}
+        <div className="my-5">
+          <div className='row p-3 mx-3 d-flex justify-content-center align-items-center' >
+            <div className='col-lg-3 col-sm-4 py-3'> <Cards heading="Mobile Tournament" t1="Create" t2="Organise" t3="Host" button="Get started"/></div>
+            <div className='col-lg-3 col-sm-4 py-3'> <Cards heading="E-Sports Coaching" t1="Play" t2="Learn" t3="Grow" button="Get started"/></div>
+            <div className='col-lg-3 col-sm-4 py-3'> <Cards heading="Influencer Marketing" t1="Manage" t2="Reach" t3="Host" button="Get started"/></div>
+          </div>
+          <div className='row p-3 mx-3 d-flex justify-content-center align-items-center' >
+              <div className='col-lg-3 col-sm-4 py-3'> <Cards heading="PC Tournaments" t1="Create" t2="Organise" t3="Host" button="Get started"/></div>
+              <div className='col-lg-3 col-sm-4 py-3'> <Cards heading="Sponsorships" t1="Event" t2="Tournament" t3="Host" button="Get started"/></div>
+          </div>
+        </div>
+{/******************** Contact us Form ********************/}
+          <div style={{backgroundColor:"#fff"}} className="row justify-content-center py-5 formRow">
+            <div  className="col-lg-12 px-5 my-4 border-right-light">
+              <form className="form container ">
+                <h3 className="contactHeading">
+                  <strong  style={{ fontSize: "3.5rem",fontWeight:"500", paddingRight: "10px", color: "#000"}}> Contact</strong>
+                </h3>
+                <div className="row mt-5 d-flex w-100">
+                  <div className="col-lg-6 col-sm-12">
+                      <div className="row d-flex">
+                          <div className="col-lg-6 col-sm-12 mb-3 itemBox form-group" controlId="formBasicName">
+                            <input type="text" name="name" className="formItems form-control" placeholder="First Name" required/>
+                          </div>
+                          <div className="col-lg-6 col-sm-12 mb-3 itemBox form-group" controlId="formBasicName">
+                            <input type="text" name="name" className="formItems form-control" placeholder="Last Name" required/>
+                          </div>
+                      </div>
 
-                        <div className="mb-3 itemBox form-group" controlId="formBasicPassword">
-                          <textarea name="career[message]" className="formItems  message" type="message" placeholder="Type your messsage"
-                          ></textarea>
-                        </div>
-                        <button className="btn btn-outline-primary w-100" variant="primary" type="submit">
-                          Submit
-                        </button>
-                      </form>
-                    </div>
-                    </div>
-        {/* <div className="row greenbox"></div> */}
+                      <div className="row d-flex">
+                          <div className="col-12 mb-3 mt-4 itemBox form-group " controlId="formBasicEmail">
+                            <input className="message form-control formBorder" type="email" placeholder="Enter email" required/>
+                          </div>
+                      </div>
+                  </div>
+                    
+                    <div className="col-lg-6 col-sm-12 mb-3 itemBox form-group" controlId="formBasicPassword">
+                  <textarea name="career[message]" className="message form-control" type="message" placeholder="Type your messsage"
+                  ></textarea>
+                </div>
+
+                </div>
+
+
+              
+                <button className="btn btn-outline-primary w-100 message-btn" variant="primary" type="submit">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
        
     </>
   );

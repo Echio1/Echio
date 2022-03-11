@@ -85,6 +85,17 @@
     
 }
 
+/* Form styling */
+.message-btn{
+  background: linear-gradient(135deg, #3A416F 0%, #141727 100%);
+  color: #fff;
+  border-style: none ; 
+}
+
+.message-btn:focus , .form-control:focus{
+  border-color: none !important;
+  box-shadow: none !important;
+}
 
 .iconsMain{
   height: 120px;

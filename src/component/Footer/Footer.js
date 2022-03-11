@@ -1,4 +1,4 @@
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './FooterStyle.css'
 // import brandLogo from '../../images/brandLogo.svg'
 
@@ -12,7 +12,7 @@ import logo from '../../images/logo.png'
 const Footer = () => {
   return (
     <>
-      <div className='footer px-0 py-5'>
+      <div className='footer px-0 py-5 my-0'>
         <div className='container-fluid m-0 p-0'>
         
           <div className='row ms-0 d-flex justify-content-start align-items-center'>
@@ -37,41 +37,20 @@ const Footer = () => {
             </div>
             <div className='col-lg-2 col-sm-4 '>
             <h5>Company</h5>
-            <p>{/* <Link to="/team"> */}Teams{/* </Link> */}</p>
-            <p><a className='c-f' href='#contact'>Contact Us</a></p>
+            <p><Link style={{color:"#fff", textDecoration:"none"}} to="/team">Teams</Link></p>
+            <p><a style={{color:"#fff", textDecoration:"none"}} className='c-f ' href='#contact'>Contact Us</a></p>
             </div>
-            <div className='col-lg-4 col-sm-12 '>
-              <h5>Let's do it</h5>
-              <div className='row  ms-0 d-flex justify-content-start align-items-center'>
-              <div className='col-lg-2 col-sm-1 '><FaLinkedinIn className='footerIcons'/></div>
-              <div className='col-lg-2 col-sm-1'><FiFacebook className='footerIcons'/></div>
-              <div className='col-lg-2 col-sm-1'><FaTelegramPlane className='footerIcons'/></div>
-              <div className='col-lg-2 col-sm-1'><FaInstagram className='footerIcons'/></div>
-              <div className='col-lg-2 col-sm-1'><FiGithub className='footerIcons'/></div>
+              <div className='col-lg-4 col-sm-12 '>
+                <h5>Let's do it</h5>
+                <div className='row  ms-0 d-flex justify-content-start align-items-center'>
+                <div className='col-lg-2 col-sm-1 '><FaLinkedinIn className='footerIcons'/></div>
+                <div className='col-lg-2 col-sm-1'><FiFacebook className='footerIcons'/></div>
+                <div className='col-lg-2 col-sm-1'><FaTelegramPlane className='footerIcons'/></div>
+                <div className='col-lg-2 col-sm-1'><FaInstagram className='footerIcons'/></div>
+                <div className='col-lg-2 col-sm-1'><FiGithub className='footerIcons'/></div>
+              </div>
+
             </div>
-
-          </div>
-          
-                {/* <div className='row footer-p  ms-0 d-flex justify-content-center mb-5'>
-                  
-                  <div className='col-2 mx-2'>
-                    
-                  </div>
-
-                  <div className='col-2 mx-2'>
-                  
-                  </div>
-
-                  <div className='col-2 mx-2'>
-
-                  </div>
-
-                  <div className='col-4 d-flex align-items-start p-0'>
-                  
-                
-                  </div> */}
-                  {/* </div> */}
-
           </div>
 
           
