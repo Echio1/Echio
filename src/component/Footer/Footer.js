@@ -12,7 +12,7 @@ import logo from '../../images/logo.png'
 const Footer = () => {
   return (
     <>
-      <div className='footer px-0 py-5 my-0'>
+      <div className='footer px-0 pt-5 pb-3 my-0'>
         <div className='container-fluid m-0 p-0'>
         
           <div className='row ms-0 d-flex justify-content-start align-items-center'>
@@ -58,9 +58,7 @@ const Footer = () => {
           <div className='row ms-0 d-flex justify-content-center align-items-center'>
             <hr style={{color:"#fff", border:"0.5px solid"}}/>
             <div className='col-3 pt-3 ms-0 text-center'>© 2022 All Rights Reserved</div>
-            {/* <br/> */}
           </div>
-
 
       </div>
       </div>

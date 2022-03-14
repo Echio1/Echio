@@ -6,8 +6,7 @@ import {BsFacebook, BsInstagram,BsTwitter,BsGithub} from "react-icons/bs"
 const Team = () => {
   return ( 
     <>
-    <div className="container">
-
+    <div className="container ">
         <div className="d-flex">
             <div className="card">
                 <div className="imgBox"></div>
