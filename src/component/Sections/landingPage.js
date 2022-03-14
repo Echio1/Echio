@@ -1,20 +1,21 @@
 // import { Container } from "react-bootstrap";
 import "./style.css";
-import row1img from "../../images/row1img.svg"
-import row3img from "../../images/row3img.svg"
+import row1img from "../../images/pg1img1.svg"
+import row3img from "../../images/pg1img2.svg"
 import inf1 from "../../images/inf1.jpeg"
 import inf2 from "../../images/inf2.jpeg"
 import inf3 from "../../images/inf3.jpeg"
 import brandLogos from "../../images/brandLogos.svg"
+import pg4img1 from '../../images/pg4img1.svg'
 
 
 
 import { Button } from "react-bootstrap";
 import NavBar from "../Navbar/Navbar";
 
-import icon1 from '../../images/starIcon.svg'
-import icon2 from '../../images/Linkicon.svg'
-import icon3  from '../../images/tickIcon.svg'
+import icon1 from '../../images/pg2star.svg'
+import icon2 from '../../images/pg2link.svg'
+import icon3  from '../../images/pg2tick.svg'
 import clientB  from '../../images/clientB.svg'
 
 import client1  from '../../images/client1.png'
@@ -24,30 +25,23 @@ import client4  from '../../images/client4.png'
 
 import rocket  from '../../images/rocket.svg'
 
-
-
-
-
-import Cards from "../Cards/cards";
 import QCards from "../QuoteCards/qCards";
 
 const LandingPage = () => {
   return (
     <> 
        <NavBar/>
-          <div className="container">
-            <div className="row d-flex">
-              <div className="col-md-7 col-sm-12 d-flex justify-content-center align-items-center">
-                <h1 style={{overflowY: "hidden"}}>
+          <div className="container justify-content-center">
+            <div className="row d-flex justify-content-center align-items-center m-0 my-5 py-5">
+            <h1 className="w-50 text-center" style={{overflowY: "hidden"}}>
                   "There are <mark className="diffColor">exceptional</mark> people
                   out there who are capable of starting
                   <mark className="diffColor">epidemics</mark>. All we have to do is{" "}
                   <mark className="diffColor">find</mark> them."
                 </h1>
-              </div>
-              <div className="d-none d-md-block col-md-5 d-flex align-items-center justify-content-end">
+              {/* <div className="d-none d-md-block col-md-5 d-flex align-items-center justify-content-end">
                 <img src={row1img} alt="notebook png"  style={{width:"90%"}}/>
-              </div>
+              </div> */}
             </div>
 
             <div className="row d-flex">
@@ -72,7 +66,7 @@ const LandingPage = () => {
               </div>
           </div>
 
-          <div className="container">
+          <div id="vision" className="container">
               <div  className="row pt-5 mt-4 m-0 d-flex justify-content-center text-center">
                 <div  className="col"><h1 style={{ fontSize:"4rem", paddingBottom:"2rem"}}>Our Vision</h1> </div>
               </div>
@@ -95,7 +89,7 @@ const LandingPage = () => {
           </div>
 {/******************** Influencers Section ********************/}
 
-          <div className="row pt-5 mt-4 m-0 d-flex justify-content-center text-center">
+          <div id="influ" className="row pt-5 mt-4 m-0 d-flex justify-content-center text-center">
             <div  className="col"><h1 style={{ fontSize:"4rem", paddingBottom:"2rem"}}>Influencers</h1> </div>
           </div>
 
@@ -137,8 +131,8 @@ const LandingPage = () => {
               </div>
           </div>
 {/******************* Brand Stat Section ****************** */}
-          <div style={{paddingTop:"20vh"}} className="row d-flex px-5 align-items-start ">
-              <strong  style={{fontSize:"3.5rem", paddingBottom:"2rem"}} >Our Brand's Success</strong>
+          <div style={{paddingTop:"20vh", backgroundImage: `url(${pg4img1})`,backgroundSize: "cover",backgroundRepeat: "no-repeat"}} className="row d-flex px-5 align-items-start ">
+              <strong className="text-center"  style={{fontSize:"3.5rem", paddingBottom:"2rem"}} >Our Brand's Success</strong>
               <p style={{color:"#1F8088",fontSize:"1.2rem"}} className="w-50 ">Influencer Marketing is a type of social media marketing that uses endorsements and 
               product mentions from influencers–individuals who have a dedicated social following and
                are viewed as experts within their niche. Influencer marketing works because of the high
@@ -162,22 +156,8 @@ const LandingPage = () => {
           <div className="row d-flex align-items-center w-100 px-0 mx-0 mb-4">
             <img src={brandLogos} alt="Associated Brands"/>
           </div>
-
-{/******************* Service Cards Section *******************/}
-        <div className="my-5">
-          <div className='row p-3 mx-3 d-flex justify-content-center align-items-center' >
-            <div className='col-lg-3 col-sm-4 py-3'> <Cards heading="Mobile Tournament" t1="Create" t2="Organise" t3="Host" button="Get started"/></div>
-            <div className='col-lg-3 col-sm-4 py-3'> <Cards heading="E-Sports Coaching" t1="Play" t2="Learn" t3="Grow" button="Get started"/></div>
-            <div className='col-lg-3 col-sm-4 py-3'> <Cards heading="Influencer Marketing" t1="Manage" t2="Reach" t3="Host" button="Get started"/></div>
-          </div>
-          <div className='row p-3 mx-3 d-flex justify-content-center align-items-center' >
-              <div className='col-lg-3 col-sm-4 py-3'> <Cards heading="PC Tournaments" t1="Create" t2="Organise" t3="Host" button="Get started"/></div>
-              <div className='col-lg-3 col-sm-4 py-3'> <Cards heading="Sponsorships" t1="Event" t2="Tournament" t3="Host" button="Get started"/></div>
-          </div>
-        </div>
-
 {/********************* Clients Testimony *********************/}
-          <div className="my-5"  style={{backgroundImage: `url(${clientB})`,paddingTop:"4.2rem", paddingBottom:"4.2rem"}}>
+          <div id="test" className="my-5"  style={{backgroundImage: `url(${clientB})`,paddingTop:"4.2rem", paddingBottom:"4.2rem"}}>
             <div className="row pt-5 mt-4 px-4 d-flex justify-content-center">
               <p className="my-5" style={{fontSize:"3rem",fontWeight:"800",color:"#E3FEF9"}}>What Our Clients Says</p>
             </div>
@@ -199,7 +179,7 @@ const LandingPage = () => {
             </div>
           </div>
 {/******************** Contact us Form ********************/}
-          <div style={{backgroundColor:"#fff"}} className="row justify-content-center py-5 formRow">
+          <div id="contact" style={{backgroundColor:"#fff"}} className="row justify-content-center py-5 mb-4 formRow">
             <div  className="col-lg-12 px-5 my-4 border-right-light">
               <form className="form container ">
                 <h3 className="contactHeading">
@@ -238,16 +218,18 @@ const LandingPage = () => {
               </form>
             </div>
           </div>
-          <div style={{marginRight:"1rem", marginLeft:"1rem"}} className="d-flex justify-content-center rounded grad mb-2">
-              <div className="row p-3 d-flex align-items-center">
-                <div className="col-2">
-                  <img style={{height:"52px"}} src={rocket} alt="rocket"/>
-                </div>
-                <div className="col-2">
-                  <p style={{fontSize:"1rem", color:"#fff"}}>Start your Journey Now with Us!</p>
-                </div>
+          <div className="row d-flex justify-content-center">
+            <div style={{position:"absolute" ,top:"615vh", zIndex:"10"}} className="d-flex w-75 text-center justify-content-center rounded grad mb-2">
+                <div className="row p-3 d-flex align-items-center">
+                  <div className="col-2">
+                    <img style={{height:"52px"}} src={rocket} alt="rocket"/>
+                  </div>
+                  <div className="col-2">
+                    <p style={{fontSize:"1rem", color:"#fff"}}>Start your Journey Now with Us!</p>
+                  </div>
 
-              </div>
+                </div>
+            </div>
           </div>
 
        
