@@ -8,7 +8,7 @@ const Section3 = () => {
     return (
       <>
         {/******************** Influencers Section ********************/}
-        <div id="influ" className="sec py-3">
+        <div id="influencers"  className="sec py-3">
 
             <div className="container">
               <div className="row d-flex justify-content-center align-items-center px-5">

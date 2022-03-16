@@ -10,7 +10,7 @@ import clientB  from '../../images/clientB.png'
 const Section6 = () => {
     return (
       <>
-         <div id="test" className=""  style={{backgroundImage: `url(${clientB})`,backgroundRepeat:"no-repeat",backgroundColor:"#E3FEF9",paddingTop:"4.2rem", paddingBottom:"12rem", marginBottom:""}}>
+         <div id="testimonials" className=""  style={{backgroundImage: `url(${clientB})`,backgroundRepeat:"no-repeat",backgroundColor:"#E3FEF9",paddingTop:"4.2rem", paddingBottom:"12rem", marginBottom:""}}>
             <div className="row pt-5 mt-2 px-4 d-flex justify-content-center">
               <p className="w-100" style={{fontSize:"4.2rem",fontWeight:"900",color:"#E3FEF9",fontFamily:"Scada"}}>Facts Can Only Tell, It's The Stories That Sell!</p>
             </div>
