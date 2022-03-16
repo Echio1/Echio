@@ -1,6 +1,6 @@
 import React from "react"
 
-import pg4img1 from "../../images/pg4img1.svg"
+import pg4img1 from "../../images/pg4img1.png"
 import brandLogos from "../../images/brandLogos.svg"
 
 const Section4 = () => {

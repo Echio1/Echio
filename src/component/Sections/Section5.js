@@ -1,6 +1,6 @@
 import React from "react"
 
-import pg5img1 from "../../images/pg5img1.svg"
+import pg5img1 from "../../images/pg5img1.png"
 
 const Section5 = () => {
     return (

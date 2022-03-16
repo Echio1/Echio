@@ -4,10 +4,10 @@ import icon1 from '../../images/pg2star.svg'
 import icon2 from '../../images/pg2link.svg'
 import icon3  from '../../images/pg2tick.svg'
 
-import pg2img1 from '../../images/pg2img1.svg'
-import pg2img2 from '../../images/pg2img2.svg'
-import pg2img3 from '../../images/pg2img3.svg'
-import pg2img4 from '../../images/pg2img4.svg'
+import pg2img1 from '../../images/pg2img1.png'
+import pg2img2 from '../../images/pg2img2.png'
+import pg2img3 from '../../images/pg2img3.png'
+import pg2img4 from '../../images/pg2img4.png'
 
 
 const Section2 = () => {
