@@ -25,21 +25,21 @@ const Section1 = () => {
                     </div>
                 <div className="col-lg-6 col-sm-12">
                     <div className="w-100 d-flex justify-content-center">
-                        <img style={{width:"60%"}} className="pt-5" src={pg1img1} alt="our clients" />
+                        <img style={{width:"70%"}} className="pt-5" src={pg1img1} alt="our clients" />
                     </div>
                 </div>
                 
             </div>
 
         {/* 2nd Row */}
-            <div className="row d-flex  justify-content-between">
+            <div className="row d-flex  justify-content-center">
               <div className="col-lg-5 col-sm-6">
-                <div className="ps-5 w-75">
+                <div style={{width:"85%"}} className="">
                     <img src={pg1img2} alt="vector1"/>
                 </div>
               </div>
               <div className="col-lg-5 col-sm-6 ">
-                <div className="container d-flex justify-content-end align-item-center w-75">
+                <div className="container d-flex justify-content-end align-item-center w-75 text-end me-1">
                     <img src={pg1img3} alt="vector1"/>  
                 </div>
               </div>

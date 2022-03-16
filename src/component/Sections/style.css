@@ -103,12 +103,12 @@
 
 }
 .iconsMain{
-  height: 120px;
-  width: 120px;
+  height: 140px;
+  width: 140px;
 }
 .iconsText{
   width: 60%;
-  font-size: 1.7rem;
+  font-size: 1.4rem;
   font-weight: 700;
   font-family: 'Scada', sans-serif;
 }

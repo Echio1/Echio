@@ -8,11 +8,11 @@ const Section4 = () => {
       <>
       <div  id="brand" className="sec">
         <div className="row px-5 d-flex align-items-start ">
-                <div className="col-lg-6">
-                    <div>
+                <div className="col-lg-6 ">
+                    <div className="text-end">
                         <strong className="w-25"  style={{fontSize:"3.1rem", paddingBottom:"0.9rem"}} >Our Brand's Success
                             </strong>
-                            <p style={{color:"#1F8088",fontSize:"1.2rem",width:"80%",textAlign:"start"}} className="">Influencer Marketing is a type of social media marketing that uses endorsements and 
+                            <p style={{color:"#1F8088",fontSize:"1.2rem",width:"80%",textAlign:"start",marginLeft:"20%"}} className="my-0 p-0">Influencer Marketing is a type of social media marketing that uses endorsements and 
                             product mentions from influencers–individuals who have a dedicated social following and
                             are viewed as experts within their niche. Influencer marketing works because of the high
                             amount of trust that social influencers have built up with their following
@@ -27,10 +27,10 @@ const Section4 = () => {
             </div>
             <div  className="container w-50 my-0 py-0">
                 <div className="row  d-flex">
-                <p style={{fontSize:"2rem",fontWeight:"700", color:"#1A1D32",letterSpacing:"2px"}} className="w-100 my-0 ">Assisted out</p>
+                <p style={{fontSize:"1.7rem",fontWeight:"700", color:"#1A1D32",letterSpacing:"2px"}} className="w-100 my-0 ">Assisted out</p>
                 </div>
                 <div className="row d-flex text-center py-0 my-0 ">
-                <p className="my-0 p-0" style={{color:"#35C5D0", fontSize:"4rem",fontWeight:"600"}}>6+</p>
+                <p className="my-0 p-0" style={{color:"#35C5D0", fontSize:"4.5rem",fontWeight:"600"}}>6+</p>
                 </div>
                 <div  style={{fontFamily:"Scada",fontWeight:"600",color:"#007A73",fontSize:"2rem"}} className="row d-flex text-end mb-0 pb-0">
                 <p className="my-0">Brands to Accomplish</p>
