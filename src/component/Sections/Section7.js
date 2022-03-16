@@ -45,7 +45,7 @@ const Section7 = () => {
             </div>
           </div>
           <div className="row d-flex justify-content-center">
-            <div style={{position:"absolute" ,top:"660vh", zIndex:"10"}} className="d-flex w-75 text-center justify-content-center rounded grad mb-2">
+            <div style={{position:"absolute" ,top:"655vh", zIndex:"10"}} className="d-flex w-75 text-center justify-content-center rounded grad mb-2">
                 <div className="row p-3 d-flex align-items-center">
                   <div className="col-2">
                     <img style={{height:"52px"}} src={rocket} alt="rocket"/>
