@@ -2,7 +2,6 @@ import React from "react"
 import './teamStyle.css'
 
 import {BsFacebook, BsInstagram,BsTwitter,BsGithub} from "react-icons/bs"
-import { propTypes } from "react-bootstrap/esm/Image";
 
 
 function SlideCards(props){

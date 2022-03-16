@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import './FooterStyle.css'
 // import brandLogo from '../../images/brandLogo.svg'
-import rocket  from '../../images/rocket.svg'
+// import rocket  from '../../images/rocket.svg'
 // import { BsLinkedin, BsInstagram } from "react-icons/bs";
 import { FiFacebook , FiGithub } from "react-icons/fi"
 import {FaTelegramPlane,FaInstagram,FaLinkedinIn} from "react-icons/fa"
