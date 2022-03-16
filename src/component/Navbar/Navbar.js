@@ -14,11 +14,11 @@ const NavBar = () => {
         <div className="container-fluid">
         <img className="logo mx-4" src={logo} alt=""></img> 
             <div className="  text-center d-flex justify-content px-3 me-auto">
-              <a style={{textDecoration:"none"}} href="#home" className="col-1 navlink">Home</a>
-              <a style={{textDecoration:"none"}} href="#influ" className="col-1 navlink">Influencers</a>
-              <a style={{textDecoration:"none"}} href="#brand" className="col-1 navlink">Brand</a>
-              <a style={{textDecoration:"none"}} href="#test" className="col-1 navlink">Testimonials</a>
-              <a style={{textDecoration:"none"}} href="#contact" className="col-1 navlink">Contact Us</a>
+              <a style={{textDecoration:"none"}} href="#home" className="col-lg-1 col-md-2 col-sm-4 navlink">Home</a>
+              <a style={{textDecoration:"none"}} href="#influ" className="col-lg-1 col-md-2 col-sm-4 navlink">Influencers</a>
+              <a style={{textDecoration:"none"}} href="#brand" className="col-lg-1 col-md-2 col-sm-4 navlink">Brand</a>
+              <a style={{textDecoration:"none"}} href="#test" className="col-lg-1 col-md-2 col-sm-3 navlink">Testimonials</a>
+              <a style={{textDecoration:"none"}} href="#contact" className="col-lg-1 col-md-2 col-sm-3 navlink">Contact Us</a>
             </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import './FooterStyle.css'
 // import brandLogo from '../../images/brandLogo.svg'
-
+import rocket  from '../../images/rocket.svg'
 // import { BsLinkedin, BsInstagram } from "react-icons/bs";
 import { FiFacebook , FiGithub } from "react-icons/fi"
 import {FaTelegramPlane,FaInstagram,FaLinkedinIn} from "react-icons/fa"
@@ -12,7 +12,14 @@ import logo from '../../images/logo.png'
 const Footer = () => {
   return (
     <>
-      <div className='footer px-0 pt-5 pb-3 my-0'>
+      
+      <div className='footer px-0  pb-3 my-0'>
+      <div className="row d-flex justify-content-center">
+            <div style={{zIndex:"10"}} className="d-flex w-75 text-center justify-content-center rounded-bottom grad">
+                <div className="row pb-4 pt-3 px-3 d-flex align-items-center">
+                </div>
+            </div>
+          </div>
         <div className='container-fluid m-0 p-0'>
         
           <div className='row ms-0 d-flex justify-content-start align-items-center'>

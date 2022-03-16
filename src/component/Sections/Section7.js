@@ -5,13 +5,13 @@ import rocket  from '../../images/rocket.svg'
 const Section7 = () => {
     return (
       <>
-        <div id="contact" style={{backgroundColor:"#fff", paddingTop:"3.8rem", paddingBottom:"4.4rem"}} className="row justify-content-center formRow">
+        <div id="contact" style={{backgroundColor:"#fff", paddingTop:"3rem", paddingBottom:"4.4rem"}} className="row justify-content-center formRow">
             <div  className="col-lg-12 px-5 border-right-light">
               <form className="form container ">
                 <h3 className="contactHeading">
                   <strong  style={{ fontSize: "3.5rem",fontWeight:"500", paddingRight: "10px", color: "#000"}}> Contact</strong>
                 </h3>
-                <div className="row mt-5 d-flex w-100">
+                <div className="row mt-2 d-flex w-100">
                   <div className="col-lg-6 col-sm-12">
                       <div className="row d-flex">
                           <div className="col-lg-6 col-sm-12 mb-3 itemBox form-group" controlId="formBasicName">
@@ -44,9 +44,9 @@ const Section7 = () => {
               </form>
             </div>
           </div>
-          <div className="row d-flex justify-content-center">
-            <div style={{position:"absolute" ,top:"655vh", zIndex:"10"}} className="d-flex w-75 text-center justify-content-center rounded grad mb-2">
-                <div className="row p-3 d-flex align-items-center">
+          <div style={{background:"#fff"}} className="row d-flex justify-content-center">
+            <div style={{zIndex:"10"}} className="d-flex w-75 text-center justify-content-center rounded-top grad">
+                <div className="row pt-3 px-3 d-flex align-items-center">
                   <div className="col-2">
                     <img style={{height:"52px"}} src={rocket} alt="rocket"/>
                   </div>

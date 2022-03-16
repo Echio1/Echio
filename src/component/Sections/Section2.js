@@ -14,8 +14,8 @@ const Section2 = () => {
     return (
       <>
         <div id="vision" className="container sec">
-            <div  className="row pt-5 mt-4 m-0 d-flex justify-content-center text-center">
-                <div  className="col"><h1 style={{ fontSize:"3.5rem"}}>Our Vision</h1> </div>
+            <div  className="row pt-2 mt-2 m-0 d-flex justify-content-center text-center">
+                <div  className="col"><h1 style={{ fontSize:"4rem"}}>Our Vision</h1> </div>
                 </div>
                 <div  className="text-center py-0 my-0"><h1 style={{ fontSize:"3rem", paddingBottom:"2rem",color:"#138C9E"}}>Wonder why our Audience trust Echio?</h1> </div>
 
@@ -34,17 +34,17 @@ const Section2 = () => {
                 </div>
             </div>
             <div className="row d-flex w-100 justify-content-center">
-                <div className="col-lg-2 col-sm-6 text-center justify-conten-center">
-                    <img className="w-"  src={pg2img1} alt="stats 29,206"/>
+                <div className="col-lg-3 col-sm-6 text-center justify-conten-center">
+                    <img style={{width:"85%"}}  src={pg2img1} alt="stats 29,206"/>
                 </div>
-                <div className="col-lg-2 col-sm-6 text-center justify-conten-center">
-                    <img className="w- text-center"  src={pg2img2} alt="stats 29,206"/>
+                <div className="col-lg-3 col-sm-6 text-center justify-conten-center">
+                    <img style={{width:"85%"}}  src={pg2img2} alt="stats 29,206"/>
                 </div>
-                <div className="col-lg-2 col-sm-6 text-center justify-conten-center">
-                    <img className="w-"  src={pg2img3} alt="stats 29,206"/>
+                <div className="col-lg-3 col-sm-6 text-center justify-conten-center">
+                    <img style={{width:"85%"}}  src={pg2img3} alt="stats 29,206"/>
                 </div>
-                <div className="col-lg-2 col-sm-6 text-center justify-conten-center">
-                    <img className="w-" src={pg2img4} alt="stats 29,206"/>
+                <div className="col-lg-3 col-sm-6 text-center justify-conten-center">
+                    <img style={{width:"85%"}}src={pg2img4} alt="stats 29,206"/>
                 </div>
             </div>
 
