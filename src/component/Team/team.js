@@ -2,8 +2,8 @@ import React from "react";
 // import "./teamStyle.css"
 import rocket  from '../../images/rocket.svg'
 
+import NavBarT from "../Navbar/NavbarT";
 // import {BsFacebook, BsInstagram,BsTwitter,BsGithub} from "react-icons/bs"
-import NavBar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
 import SlideCards from "./cards";
 
@@ -15,7 +15,7 @@ import img4 from '../../images/client4.png'
 const Team = () => {
   return ( 
     <div style={{background:"#E3FEF9"}}>
-    <NavBar/>
+    <NavBarT/>
     <div className="w-100 m-0 p-0 justify-content-end ">
             <div className="row d-flex  justify-content-end align-items-center text-center my-5 ">
 
