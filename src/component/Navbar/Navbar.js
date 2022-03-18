@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   return (
     <>
-      <div className="navbar navbar-expand-lg  " collapseOnSelect expand="lg" bg="dark" variant="dark">
+      <div className="navbar bgT navbar-expand-lg  " collapseOnSelect expand="lg" bg="dark" variant="dark">
         <div className="container-fluid">
         <img className="logo mx-4" src={logo} alt=""></img> 
             <div className="  text-center d-flex justify-content px-3 me-auto">

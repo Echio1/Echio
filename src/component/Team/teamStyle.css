@@ -9,50 +9,21 @@ body{
     display: flex;
     justify-content: center;
     text-align: center;
-    /* position: relative; */
+    position: relative;
     width: 220px;
     height: 280px;
     background: #fff;
     transform-style: preserve-3d;
     transform: perspective (1000px);
-    box-shadow: 10px 20px 40px rgba(0,0,0,0.25);
-    transition: 0.8s;
-
+    transition: 0.5s;
+    border-style: none;
+    box-shadow: 10px 20px 40px rgba(0,0,0,0.15);
+    
+    
 }
 
 .card:hover{
     transform: translateX(50%);
-}
-
-.card .imgBox{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    transform-origin: left;
-    transform-style: preserve-3d;
-    background-color: #000;
-    transition: 1s;
-    box-shadow: 10px 20px 40px rgba(0,0,0,0.25);
-}
-
-.card:hover .imgBox{
-    transform: rotateY(-180deg);
-}
-.card .imgBox img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    transform-style: preserve-3d;
-    backface-visibility: hidden;
-}
-
-.card .imgBox img:nth-child(2){
-    transform: rotateY(180deg);
-    
 }
 .card .details {
     position: absolute;
@@ -61,10 +32,42 @@ body{
     width: 100%;
     height: 100%;
     padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 
+}
+
+.card .imgBox{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    border-radius: 50%;
+    transform-origin: left;
+    transform-style: preserve-3d;
+    background-color: #000;
+    transition: 1s;
+    box-shadow: 10px 20px 40px rgba(0,0,0,0.15);
+}
+
+.card:hover .imgBox{
+    transform: rotateY(-180deg);
+    border-radius: 50%;
+
+}
+.card .imgBox img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform-style:preserve-3d;
+    backface-visibility: hidden;
+}
+
+.card .imgBox img:nth-child(2){
+    transform: rotateY(180deg);
+    
 }
 
 .card .details .content{
@@ -78,46 +81,37 @@ body{
     font-size: 1.3rem;
     text-align: center;
     font-weight: 700;
-    line-height: 1.4rem;
+    line-height: 0.9rem;
 
 }
 .card .details .content h2 span{
     color: red;
-    font-size: 0.8em;
+    font-size: 1rem;
 }
 .card .details .content .social-icons{
     position: relative;
     display: flex;
     justify-content: center;
-    margin-top: 10px;
-}
-.card .details .content p{
-    font-weight: 500;
-    font-size: 1.3em;
-    text-align: center;
-}
-.card .details .content p span{
-    font-size: 0.6em;
-    color: red;
-    
+    margin-top: 1px;
 }
 
 .card .details .content .social-icons a{
     display: inline-block;
-    width: 1.2em;
-    height: 1.2em;
-    background-color: #333;
-    color: #fff;
+    width: 1.4em;
+    height: 1.4em;
+    background-color: #09566E;
+    color: #E3FEF9;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
     margin: 5px;
     font-size: 18px;
-    transform: 0.2s;
+    transition: 0.2s;
 }
 .card .details .content .social-icons a:hover{
-    background-color: red;
+    color: #fff;
+    background-color: #35C5D0;
 }
 
 .ic{

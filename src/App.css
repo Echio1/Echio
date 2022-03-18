@@ -5,7 +5,7 @@ html{
 *{
   width: 100%;
   font-family: 'Rubik';
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 
 }
 

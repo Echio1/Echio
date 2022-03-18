@@ -1,15 +1,15 @@
-.navbar{
+.bgT{
     background-color: transparent !important;
 
 }
 
 .logo{
-    height: 3.5rem;
+    /* height: 3.5rem; */
     width: 3.5rem;
 
 }
 .navlink{
-    color: #000 !important;
+    color: #000 ;
 }
 /* .button{
 
@@ -30,4 +30,13 @@
     padding: 10px 0;
     border-style: none;
 } */
+
+.teamlinks{
+    color:#09566E;
+}
+.teamlinks:hover{
+    color:#000;
+    border-bottom: 2px solid #1F8088;
+
+}
 
