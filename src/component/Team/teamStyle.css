@@ -1,9 +1,15 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 .card
 {
     display: flex;
     justify-content: center;
     text-align: center;
-    position: relative;
+    /* position: relative; */
     width: 220px;
     height: 280px;
     background: #fff;
@@ -69,9 +75,10 @@
 
 }
 .card .details .content h2{
+    font-size: 1.3rem;
     text-align: center;
     font-weight: 700;
-    line-height: 1em;
+    line-height: 1.4rem;
 
 }
 .card .details .content h2 span{
@@ -81,6 +88,7 @@
 .card .details .content .social-icons{
     position: relative;
     display: flex;
+    justify-content: center;
     margin-top: 10px;
 }
 .card .details .content p{

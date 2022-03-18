@@ -34,7 +34,7 @@ const Section3 = () => {
                     </div>
                 </div>
                 <div style={{padding:" 0"}} className="row d-flex justify-content-center ">
-                    <div style={{}}  className="col-lg-2 col-sm-12 text-center ">
+                    <div style={{}}  className="col-lg-2 col-sm-6 text-center ">
                         <img   src={inf2} alt="Influencers" className="rounded-circle w-100" />
                     </div>
                     <div className="col-lg-8 col-sm-12 p-0 m-0">

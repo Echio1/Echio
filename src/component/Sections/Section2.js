@@ -20,15 +20,15 @@ const Section2 = () => {
                 <div  className="text-center py-0 my-0"><h1 style={{ fontSize:"3rem", paddingBottom:"2rem",color:"#138C9E"}}>Wonder why our Audience trust Echio?</h1> </div>
 
             <div className="row d-flex justify-content-center text-center">
-                <div className="col-4 text-center">
+                <div className="col-lg-4 col-sm-6 justify-content-center text-center m-0 p-0">
                     <div className="row justify-content-center text-center"><img className="iconsMain w-100" src={icon2} alt='icon2'/></div>
                     <div className="row justify-content-center text-center"><p className="iconsText  w-75">Bridge the gap between talent & companies. </p></div>
                 </div>
-                <div className="col-4 justify-content-center text-end">
+                <div className="col-lg-4 col-sm-12 justify-content-center text-center m-0 p-0">
                     <div className="row justify-content-center text-center"><img className="iconsMain w-100 " src={icon1} alt='icon1'/></div>
                     <div className="row justify-content-center text-center"><p style={{color:"#1F8088"}} className="iconsText w-75">Encourage everyone to follow their passion in content creation and gaming.</p></div>
                 </div>
-                <div className="col-4 text-center">
+                <div className="col-lg-4 col-sm-6 justify-content-center text-center m-0 p-0">
                     <div className="row justify-content-center text-center"><img className="iconsMain w-100" src={icon3} alt='icon3'/></div>
                     <div className="row justify-content-center text-center"><p className="iconsText  w-75">One stop destination for every influencer.</p></div>
                 </div>

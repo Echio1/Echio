@@ -16,15 +16,15 @@ const Team = () => {
   return ( 
     <div style={{background:"#E3FEF9"}}>
     <NavBarT/>
-    <div className="w-100 m-0 p-0 justify-content-end ">
-            <div className="row d-flex  justify-content-end align-items-center text-center my-5 ">
+    <div className="">
+            <div className="row d-flex justify-content-center align-items-center text-center mb-5 ">
 
-                <div style={{padding:"5rem 0"}} className="col-lg-6"> 
-                    <SlideCards Img1={img1} Img2={img2} Title="CEO" Head="Someone New"/>
+                <div style={{padding:"4rem 2rem"}} className="col-lg-6 justify-content-center"> 
+                    <SlideCards  Img1={img1} Img2={img2} Title="CEO" Head="Someone New"/>
                 </div>
-                <div style={{padding:"5rem 0"}}  className="col-lg-6"><SlideCards  Img1={img3} Img2={img4} Title="CEO" Head="Someone New"/></div>
-                <div style={{padding:"5rem 0"}}  className="col-lg-6"><SlideCards/></div>
-                <div style={{padding:"5rem 0"}}  className="col-lg-6"><SlideCards/></div>
+                <div style={{padding:"4rem 2rem"}}  className="col-lg-6 justify-content-center"><SlideCards  Img1={img3} Img2={img4} Title="CEO" Head="Someone New"/></div>
+                <div style={{padding:"4rem 2rem"}}  className="col-lg-6"><SlideCards/></div>
+                <div style={{padding:"4rem 2rem"}}  className="col-lg-6"><SlideCards/></div>
             {/* Card 1 */}
                 {/* <div className="card">
                     <div className="imgBox">
@@ -49,13 +49,13 @@ const Team = () => {
         
 
     
-            <div style={{background:"#fff"}} className="row d-flex justify-content-center">
+            <div style={{background:"#E3FEF9"}} className="row d-flex justify-content-center">
             <div style={{zIndex:"10"}} className="d-flex w-75  justify-content-center rounded-top grad">
                 <div className="row pt-3 px-3 d-flex align-items-center">
                   <div className="col-2">
-                    <img style={{height:"52px"}} src={rocket} alt="rocket"/>
+                    <img style={{height:"3rem"}} src={rocket} alt="rocket"/>
                   </div>
-                  <div className="col-4">
+                  <div className="col-lg-10  ">
                     <p style={{fontSize:"1rem", color:"#fff"}}>Start your Journey Now with Us!</p>
                   </div>
 

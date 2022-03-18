@@ -23,7 +23,7 @@ const Footer = () => {
         <div className='container-fluid m-0 p-0'>
         
           <div className='row ms-0 d-flex justify-content-start align-items-center'>
-            <div className='col-1 py-3 ps-5'><img className='logo' src={logo} alt="Logo" /> </div>
+            <div className='col-lg-1 col-sm-4 py-3 ps-5'><img className='logo' src={logo} alt="Logo" /> </div>
             {/* <div className='col-1 py-4'><p style={{color:"#000",fontSize:"2rem", fontFamily:"Rubik",fontWeight:"600"}} >ECHIO</p></div> */}
           </div>
 
@@ -50,11 +50,11 @@ const Footer = () => {
               <div className='col-lg-4 col-sm-12 '>
                 <h5>Let's do it</h5>
                 <div className='row  ms-0 d-flex justify-content-start align-items-center'>
-                <div className='col-lg-2 col-sm-1 '><FaLinkedinIn className='footerIcons'/></div>
-                <div className='col-lg-2 col-sm-1'><FiFacebook className='footerIcons'/></div>
-                <div className='col-lg-2 col-sm-1'><FaTelegramPlane className='footerIcons'/></div>
-                <div className='col-lg-2 col-sm-1'><FaInstagram className='footerIcons'/></div>
-                <div className='col-lg-2 col-sm-1'><FiGithub className='footerIcons'/></div>
+                <div className='col-lg-2 col-sm-6 '><FaLinkedinIn className='footerIcons'/></div>
+                <div className='col-lg-2 col-sm-6'><FiFacebook className='footerIcons'/></div>
+                <div className='col-lg-2 col-sm-6'><FaTelegramPlane className='footerIcons'/></div>
+                <div className='col-lg-2 col-sm-6'><FaInstagram className='footerIcons'/></div>
+                <div className='col-lg-2 col-sm-6'><FiGithub className='footerIcons'/></div>
               </div>
 
             </div>

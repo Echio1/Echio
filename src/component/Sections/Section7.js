@@ -7,7 +7,7 @@ const Section7 = () => {
       <>
         <div id="contact" style={{backgroundColor:"#fff", paddingTop:"3rem", paddingBottom:"4.4rem"}} className="row justify-content-center formRow">
             <div  className="col-lg-12 px-5 border-right-light">
-              <form className="form container ">
+            <form action="https://formsubmit.co/bfdce9e846db738c99e1c63b251f7d9b" method="POST">
                 <h3 className="contactHeading">
                   <strong  style={{ fontSize: "3.5rem",fontWeight:"500", paddingRight: "10px", color: "#000"}}> Contact</strong>
                 </h3>
@@ -15,24 +15,32 @@ const Section7 = () => {
                   <div className="col-lg-6 col-sm-12">
                       <div className="row d-flex">
                           <div className="col-lg-6 col-sm-12 mb-3 itemBox form-group" controlId="formBasicName">
-                            <input type="text" name="name" className="formItems form-control" placeholder="First Name" required/>
+                            <input type="text" name="first name" className="formItems form-control" placeholder="First Name" required/>
                           </div>
                           <div className="col-lg-6 col-sm-12 mb-3 itemBox form-group" controlId="formBasicName">
-                            <input type="text" name="name" className="formItems form-control" placeholder="Last Name" required/>
+                            <input type="text" name="last name" className="formItems form-control" placeholder="Last Name" required/>
                           </div>
                       </div>
 
                       <div className="row d-flex">
+                          <div className="col-lg-6 mb-3 mt-4 itemBox form-group " controlId="formBasicEmail">
+                            <input className="message form-control formBorder" type="subject" name="Subject" placeholder="Subject" required/>
+                          </div>
+                          <div className="col-lg-6 mb-3 mt-4 itemBox form-group " controlId="formBasicEmail">
+                            <input className="message form-control formBorder" type="phone" name="Phone Number" placeholder="Phone Number" />
+                          </div>
+                      </div>
+                      <div className="row d-flex">
                           <div className="col-12 mb-3 mt-4 itemBox form-group " controlId="formBasicEmail">
-                            <input className="message form-control formBorder" type="email" placeholder="Enter email" required/>
+                            <input className="message form-control formBorder" type="email" name="Email" placeholder="Enter email" required/>
                           </div>
                       </div>
                   </div>
                     
                     <div className="col-lg-6 col-sm-12 mb-3 itemBox form-group" controlId="formBasicPassword">
-                  <textarea name="career[message]" className="message form-control" type="message" placeholder="Type your messsage"
-                  ></textarea>
-                </div>
+                      <textarea name="Message" className="message form-control" type="message" placeholder="Type your messsage">
+                      </textarea>
+                    </div>
 
                 </div>
 
