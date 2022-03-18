@@ -22,7 +22,8 @@ const Team = () => {
     <NavBarT/>
     <div className="justify-content-center align-items-center w-100 text-center">
             <div className="px-5" style={{width:"30%"}}>
-              <p className=" mb-0 text-start " style={{transform:"scale(1,0.9)",fontSize:"3rem",fontWeight:"500", color:"#fff", letterSpacing:"4px", borderBottom:"2px solid #E3FEF9", lineHeight:"0.9"}}>MEET THE TEAM</p>
+              <p className=" mb-0 text-start pb-1" style={{transform:"scale(1,0.9)",fontSize:"3rem",fontWeight:"500", color:"#fff", letterSpacing:"4px", borderBottom:"2px solid #E3FEF9", lineHeight:"0.9"}}>MEET THE TEAM</p>
+              <p className=" mb-0 text-start " style={{fontSize:"0.5rem",fontWeight:"500", color:"#fff", letterSpacing:"4px"}}>HOVER TO KNOW MORE</p>
             </div>
             <div className="row d-flex justify-content-center align-items-center text-center mb-5  mx-5  ">
 

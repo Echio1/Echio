@@ -18,10 +18,9 @@ const Section3 = () => {
                     <div className="col-lg-6">
                         <h1  style={{ fontSize:"4rem", fontWeight:"600"}}>Influencers</h1>
                         <br/>
-                        <p style={{color:"#1F8088",fontSize:"1.2rem"}}   className="align-items-center"> Our content creators (Influencers) 
-                        and marketing experts create unique content and devise the comprehensive influencer marketing strategy to utilize 
-                        the trusted relationship between influencers and their followers to position your product superior. This way, we 
-                        help businesses in increasing their awareness, leads and sales through positive engagement.
+                        <p style={{color:"#1F8088",fontSize:"1.2rem"}}   className="align-items-center"> Our content creators and create unique 
+                        content and devise the comprehensive influencer marketing strategy to utilize the trusted relationship between influencers and 
+                        their followers to position their product superior. This way, we help businesses increasing their awareness, leads and sales.
                         </p>
                         <div className="row d-flex  align-items-center">
                             <div className="col-8">

@@ -12,12 +12,11 @@ const Section4 = () => {
                     <div className="text-end ">
                         <strong className="w-25"  style={{fontSize:"3.1rem", paddingBottom:"0.9rem"}} >Our Brand's Success
                             </strong>
-                            <p style={{color:"#1F8088",fontSize:"1.2rem",width:"80%",textAlign:"start",marginLeft:"20%"}} className="my-0 p-0">We help brands engage with and activate their target audiences worldwide through strategic and creative influencer marketing campaigns. 
+                            <p style={{color:"#1F8088",fontSize:"1.2rem",width:"80%",textAlign:"start",marginLeft:"20%"}} className="my-0 p-0">We help brands 
+                            engage with and activate their target audiences worldwide through strategic and creative influencer marketing campaigns. 
+                            We create the most authentic connection between a brand and an influencer using our unique and longstanding expertise. 
+                            </p> 
                                 <br/>
-                                <br/>
-                            <p>We create the most authentic connection between a brand and an influencer using our unique and longstanding expertise. We then develop and execute these strategies to amplify your brand story at scale.</p>
-                            </p>
-
                             <div className="col-12 .d-sm-none .d-md-block">
                                 <p style={{fontSize:"1.7rem",fontWeight:"700", color:"#1A1D32",letterSpacing:"2px"}} className="w-100 mb-0 mt-5 ">Assisted out</p>
                             </div>
