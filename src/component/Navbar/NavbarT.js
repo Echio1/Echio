@@ -13,10 +13,10 @@ const NavBarT = () => {
             <div className="  text-center d-flex justify-content">
             <ul className="navbar-nav align-items-center">
               <li className="d-flex row justify-content-center align-items-center">
-                <div className="col-lg-6 p-0">
+                <div className="col-lg-4 col-sm-6 p-0">
                   <Link className="w-100" to="/" ><img className="logo" src={logo} alt=""></img></Link>
                 </div>
-                <div className="col-lg-6 p-0">
+                <div className="col-lg-4 col-sm-6 p-0">
                   <Link className="w-100" to="/" style={{textDecoration:"none", color:"#09566E",fontSize:"1.8rem", fontWeight:"600"}}>ECHIO</Link>
                 </div>
               </li>
