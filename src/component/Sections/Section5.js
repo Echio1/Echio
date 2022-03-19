@@ -5,7 +5,7 @@ import pg5img1 from "../../images/pg5img1.png"
 const Section5 = () => {
     return (
       <>
-      <div style={{color:"#fff", background:"#fff", borderTop:"0px solid #E3FEF9"}} className="sec d-flex align-items-center py-5" >
+      <div style={{color:"#fff", background:"#E3FEF9", borderTop:"0px solid #E3FEF9"}} className="sec d-flex align-items-center py-5" >
         <div style={{width: "100%",backgroundImage: `url(${pg5img1})`,backgroundSize: "cover",backgroundRepeat: "no-repeat"}}>
             <div style={{}} className="row px-5 d-flex align-items-start mt-3">
             <div className="row d-flex text-center mt-1">

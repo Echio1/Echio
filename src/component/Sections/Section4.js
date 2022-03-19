@@ -18,7 +18,7 @@ const Section4 = () => {
                             </p> 
                                 <br/>
                             <div className="col-12 .d-sm-none .d-md-block">
-                                <p style={{fontSize:"1.7rem",fontWeight:"700", color:"#1A1D32",letterSpacing:"2px"}} className="w-100 mb-0 mt-5 ">Assisted out</p>
+                                {/* <p style={{fontSize:"1.7rem",fontWeight:"700", color:"#1A1D32",letterSpacing:"2px"}} className="w-100 mb-0 mt-5 ">Assisted out</p> */}
                             </div>
                     </div>
                 </div>
@@ -29,6 +29,9 @@ const Section4 = () => {
                 </div>
             </div>
             <div  className="container w-50 my-0 py-0">
+                <div className="row d-flex text-center py-0 my-0 ">
+                <p style={{fontSize:"1.7rem",fontWeight:"700", color:"#1A1D32",letterSpacing:"2px"}} className="w-100 mb-0 text-start ps-5 ">Assisted out</p>
+                </div>
                 <div className="row d-flex text-center py-0 my-0 ">
                 <p className="my-0 p-0" style={{color:"#35C5D0", fontSize:"5.3rem",fontWeight:"600"}}>6+</p>
                 </div>

@@ -14,7 +14,7 @@ import SlideCards from "./cards";
 
 import img5 from '../../images/teamcard1.jpeg'
 import img6 from '../../images/teamcard2.jpeg'
-import clientB from '../../images/clientB.png'
+import clientB from '../../images/clientB.svg'
 
 const Team = () => {
   return ( 

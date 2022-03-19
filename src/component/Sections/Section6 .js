@@ -5,12 +5,12 @@ import client1  from '../../images/client1.png'
 import client2  from '../../images/client2.png'
 import client3  from '../../images/client3.png'
 import client4  from '../../images/client4.png'
-import clientB  from '../../images/clientB.png'
+import clientB  from '../../images/clientB.svg'
 
 const Section6 = () => {
     return (
       <>
-         <div id="testimonials" className=""  style={{backgroundImage: `url(${clientB})`,backgroundRepeat:"no-repeat",backgroundColor:"#E3FEF9",paddingTop:"4.2rem", paddingBottom:"12rem", marginBottom:""}}>
+         <div id="testimonials" className=""  style={{backgroundImage: `url(${clientB})`,backgroundRepeatY:"no-repeat",backgroundColor:"#E3FEF9",paddingTop:"4.2rem", paddingBottom:"12rem", marginBottom:""}}>
             <div className="row pt-5 mt-2 px-4 d-flex justify-content-center">
               <p className="w-100" style={{fontSize:"4.2rem",fontWeight:"900",color:"#E3FEF9",fontFamily:"Scada"}}>Facts Can Only Tell, It's The Stories That Sell!</p>
             </div>
