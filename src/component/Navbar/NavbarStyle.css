@@ -5,7 +5,7 @@
 
 .logo{
     /* height: 3.5rem; */
-    width: 3.5rem;
+    /* width: 3.5rem; */
 
 }
 .navlink{
@@ -33,9 +33,10 @@
 
 .teamlinks{
     color:#09566E;
+    border-bottom: 2px solid #09566E;
 }
 .teamlinks:hover{
-    color:#000;
+    color:#1F8088;
     border-bottom: 2px solid #1F8088;
 
 }

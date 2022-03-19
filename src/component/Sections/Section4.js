@@ -13,7 +13,7 @@ const Section4 = () => {
                         <strong className="w-25"  style={{fontSize:"3.1rem", paddingBottom:"0.9rem"}} >Our Brand's Success
                             </strong>
                             <p style={{color:"#1F8088",fontSize:"1.2rem",width:"80%",textAlign:"start",marginLeft:"20%"}} className="my-0 p-0">We help brands 
-                            engage with and activate their target audiences worldwide through strategic and creative influencer marketing campaigns. 
+                            engage and, activate their target audiences worldwide through strategic and creative influencer marketing campaigns. 
                             We create the most authentic connection between a brand and an influencer using our unique and longstanding expertise. 
                             </p> 
                                 <br/>

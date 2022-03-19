@@ -17,7 +17,7 @@ const Section2 = () => {
             <div  className="row pt-2 mt-2 m-0 d-flex justify-content-center text-center">
                 <div  className="col"><h1 style={{ fontSize:"4rem"}}>Our Vision</h1> </div>
                 </div>
-                <div  className="text-center py-0 my-0"><h1 style={{ fontSize:"3rem", paddingBottom:"2rem",color:"#138C9E"}}>Wonder why our Audience trust Echio?</h1> </div>
+                <div  className="text-center py-0 my-0"><h1 style={{ fontSize:"3rem", paddingBottom:"2rem",color:"#138C9E"}}>Wonder Why Our Audience Trust Echio?</h1> </div>
 
             <div className="row d-flex justify-content-center text-center">
                 <div className="col-lg-4 col-sm-6 justify-content-center text-center m-0 p-0">

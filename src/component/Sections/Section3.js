@@ -18,13 +18,13 @@ const Section3 = () => {
                     <div className="col-lg-6">
                         <h1  style={{ fontSize:"4rem", fontWeight:"600"}}>Influencers</h1>
                         <br/>
-                        <p style={{color:"#1F8088",fontSize:"1.2rem"}}   className="align-items-center"> Our content creators and create unique 
+                        <p style={{color:"#1F8088",fontSize:"1.2rem"}}   className="align-items-center"> Our content creators create unique 
                         content and devise the comprehensive influencer marketing strategy to utilize the trusted relationship between influencers and 
-                        their followers to position their product superior. This way, we help businesses increasing their awareness, leads and sales.
+                        their followers to position their product superior. This way, we help businesses increase their awareness, leads and sales.
                         </p>
                         <div className="row d-flex  align-items-center">
                             <div className="col-8">
-                                <p  style={{fontSize:"2.5rem",fontFamily:"Rubik", fontWeight:"700",color:"#35C5D0",width:""}}>No Fluff. Real Growth Wins For 250+ Influencers</p>
+                                <p  style={{fontSize:"2.5rem",fontFamily:"Rubik", fontWeight:"700",color:"#35C5D0",width:""}}>No Fluff<div>Real Growth</div> Wins For 250+ Influencers</p>
                             </div>
                             <div className="col-4">
                                 <img style={{marginTop:"70px"}} src={inf3} alt="Influencers" className="rounded-circle " />
