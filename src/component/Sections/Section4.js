@@ -2,10 +2,13 @@ import React from "react"
 
 import pg4img1 from "../../images/pg4img1.png"
 import brandLogos from "../../images/brandLogos.svg"
+import "./section.css"
 
 const Section4 = () => {
     return (
       <>
+      <div className="cont">
+
       <div  id="brand" className="sec">
         <div className="row px-5 d-flex align-items-start ">
                 <div className="col-lg-6 ">
@@ -43,6 +46,7 @@ const Section4 = () => {
             <div style={{background:"white", display:"flex", justifyContent:"center"}} className="row d-flex align-items-center w-100 px-0 mx-0">
             <img style={{width:"95%"}} src={brandLogos} alt="Associated Brands"/>
           </div>
+      </div>
       </div>
       </>
     );

@@ -1,10 +1,13 @@
 import React from "react"
 import rocket  from '../../images/rocket.svg'
+import "./section.css"
 
 
 const Section7 = () => {
     return (
       <>
+      <div className="cont">
+
         <div id="contact" style={{backgroundColor:"#fff", paddingTop:"3rem", paddingBottom:"4.4rem"}} className="row justify-content-center formRow px-0 mx-0">
             <div  className="col-lg-12 px-5 border-right-light">
             <form action="https://formsubmit.co/bfdce9e846db738c99e1c63b251f7d9b" method="POST">
@@ -65,6 +68,7 @@ const Section7 = () => {
                 </div>
             </div>
           </div>
+      </div>
       </>
     );
 };

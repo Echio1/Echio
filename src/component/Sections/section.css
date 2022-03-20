@@ -1,4 +1,14 @@
 .sec{
     /* min-height: 100vh; */
-    overflow: hidden;
+    /* overflow: hidden; */
+    /* scroll-snap-align: start; */
+}
+
+.cont{
+    /* scroll-snap-type: mandatory;
+    overflow-y: scroll;
+    height: 100vh; */
+
+
+
 }

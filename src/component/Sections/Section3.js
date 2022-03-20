@@ -4,9 +4,13 @@ import pg3img1 from "../../images/pg3img1.svg"
 import inf2 from "../../images/inf2.jpeg"
 import inf3 from "../../images/inf3.jpeg"
 
+import "./section.css"
+
 const Section3 = () => {
     return (
       <>
+      <div className="cont">
+
         {/******************** Influencers Section ********************/}
         <div id="influencers"  className="sec py-3">
 
@@ -54,6 +58,7 @@ const Section3 = () => {
                 </div>
             </div>
         </div>
+      </div>
       </>
     );
 };

@@ -11,10 +11,13 @@ import pg2img2 from '../../images/pg2img2.svg'
 import pg2img3 from '../../images/pg2img3.svg'
 import pg2img4 from '../../images/pg2img4.svg'
 
+import "./section.css"
 
 const Section2 = () => {
     return (
       <>
+      <div className="cont">
+          
         <div id="vision" className="container sec">
             <div  className="row pt-2 mt-2 m-0 d-flex justify-content-center text-center">
                 <div  className="col"><h1 style={{ fontSize:"4rem"}}>Our Vision</h1> </div>
@@ -68,6 +71,7 @@ const Section2 = () => {
             </div>
 
         </div>
+      </div>
 
       </>
     );
