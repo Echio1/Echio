@@ -36,8 +36,8 @@ const Section4 = () => {
                 <p className="my-0 p-0" style={{color:"#35C5D0", fontSize:"5.3rem",fontWeight:"600"}}>6+</p>
                 </div>
                 <div  style={{color:"#007A73",fontSize:"2rem"}} className="row d-flex text-end mb-0 pb-0">
-                <p style={{fontFamily:"Scada",fontWeight:"600"}} className="my-0">Brands to Accomplish</p>
-                <p style={{fontFamily:"Scada",fontWeight:"600"}}className="my-0">Their Target Market</p>
+                <p style={{fontFamily:"Scada",fontWeight:"600"}} className="my-0">Brands <span className="content-to-hide">to Accomplish</span></p>
+                <p style={{fontFamily:"Scada",fontWeight:"600"}}className="my-0 content-to-hide">Their Target Market</p>
                 </div>
             </div>
             <div style={{background:"white", display:"flex", justifyContent:"center"}} className="row d-flex align-items-center w-100 px-0 mx-0">

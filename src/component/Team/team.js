@@ -7,37 +7,31 @@ import NavBarT from "../Navbar/NavbarT";
 import Footer from "../Footer/Footer";
 import SlideCards from "./cards";
 
-// import img1 from '../../images/client1.png'
-// import img2 from '../../images/client2.png'
-// import img3 from '../../images/client3.png'
-// import img4 from '../../images/client4.png'
-
-import img5 from '../../images/teamcard1.jpeg'
-import img6 from '../../images/teamcard2.jpeg'
-import clientB from '../../images/clientB.svg'
+import CRO from '../../images/CRO.jpeg'
+import CEO from '../../images/CEO.png'
+import CPO from '../../images/CPO.png'
+import img6 from '../../images/teamcard1.jpeg'
+import clientB from '../../images/teamB.svg'
 
 const Team = () => {
   return ( 
-    <div style={{background:"#E3FEF9",backgroundImage: `url(${clientB})`,backgroundSize: "contain",backgroundRepeat: "no-repeat"}}>
+    <div className="" style={{background:"#E3FEF9",backgroundImage: `url(${clientB})`,backgroundSize: "",backgroundRepeatY: "no-repeat"}}>
     <NavBarT/>
-    <div className="justify-content-center align-items-center w-100 text-center">
+    <div className="justify-content-center align-items-center w-100 text-center ">
             <div className="px-5" style={{width:"30%"}}>
               <p className=" mb-0 text-start pb-1" style={{transform:"scale(1,0.9)",fontSize:"3rem",fontWeight:"500", color:"#fff", letterSpacing:"4px", borderBottom:"2px solid #E3FEF9", lineHeight:"0.9"}}>MEET THE TEAM</p>
               <p className=" mb-0 text-start " style={{fontSize:"0.5rem",fontWeight:"500", color:"#fff", letterSpacing:"4px"}}>HOVER TO KNOW MORE</p>
             </div>
             <div className="row d-flex justify-content-center align-items-center text-center mb-5  mx-5  ">
 
-                <div style={{padding:"2.5rem 12rem"}} className="col-lg-6 justify-content-center"> 
-                    <SlideCards  Img1={img5} Img2={img6} Title="CEO" Head="Someone New"/>
+                <div style={{padding:"2.5rem 12rem"}} className="teamCards col-lg-6 justify-content-center text-center"> 
+                    <SlideCards  Img1={CPO} Img2={img6} Title="CPO" Head="Amit"/>
                 </div>
-                <div style={{padding:"2.5rem 8rem"}} className="col-lg-6 justify-content-center"> 
-                    <SlideCards  Img1={img5} Img2={img6} Title="CEO" Head="Someone New"/>
+                <div style={{padding:"2.5rem 12rem"}} className="teamCards col-lg-6 justify-content-center"> 
+                    <SlideCards  Img1={CRO} Img2={img6} Title="CRO" Head="Lakshay"/>
                 </div>
-                <div style={{padding:"2.5rem 12rem"}} className="col-lg-6 justify-content-center"> 
-                    <SlideCards  Img1={img5} Img2={img6} Title="CEO" Head="Someone New"/>
-                </div>
-                <div style={{padding:"2.5rem 8rem"}} className="col-lg-6 justify-content-center"> 
-                    <SlideCards  Img1={img5} Img2={img6} Title="CEO" Head="Someone New"/>
+                <div style={{padding:"0 12rem"}} className="teamCards col-lg-6 justify-content-center"> 
+                    <SlideCards  Img1={CEO} Img2={img6} Title="Founder & CEO" Head="Himanshu"/>
                 </div>
             </div>
         

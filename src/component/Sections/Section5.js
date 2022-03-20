@@ -11,8 +11,8 @@ const Section5 = () => {
             <div className="row d-flex text-center mt-1">
                 <p style={{fontSize:"4rem", fontWeight:"600"}}>What we do in E-Sports</p>
             </div>
-            <div style={{width:"70%"}} className="row d-flex ps-5 my-3 pb-2">
-                <p style={{fontSize:"1.4rem"}}>With an emphasis on players, organizations, and the communities that make the games 
+            <div style={{width:"70%"}} className="row d-flex ps-5 my-3 pb-2 ">
+                <p className="content-to-hide" style={{fontSize:"1.4rem"}}>With an emphasis on players, organizations, and the communities that make the games 
                 we play so special, 'E-Sports Talk' shines a spotlight on engaging stories from around the world and ties it all 
                 together. Whether it’s a statement in an obscure podcast, an official press release, a post on social media, 
                 or even just a small in-game hint you can rely on the E-Sports Talk team to connect the dots and reveal the 

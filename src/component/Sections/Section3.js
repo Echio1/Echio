@@ -27,7 +27,7 @@ const Section3 = () => {
                                 <p  style={{fontSize:"2.5rem",fontFamily:"Rubik", fontWeight:"700",color:"#35C5D0",width:""}}>No Fluff<div>Real Growth</div> Wins For 250+ Influencers</p>
                             </div>
                             <div className="col-4">
-                                <img style={{marginTop:"70px"}} src={inf3} alt="Influencers" className="rounded-circle " />
+                                <img style={{marginTop:"70px"}} src={inf3} alt="Influencers" className="rounded-circle content-to-hide" />
                             </div>
                         </div>
                     </div>

@@ -10,6 +10,17 @@
 
 }
 
+.team-linkF{
+    border-left: solid 3px;
+    transition: 0.4s;
+    padding: 6px;
+    padding-left: 28px;
+}
+.team-linkF:hover{
+    border-left-style:none ;
+    padding-left: 6px;
+    transition: 0.4s;
+}
 .footerIcons{
     
     color: #fff;

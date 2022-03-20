@@ -102,6 +102,15 @@
   background: linear-gradient(90deg, #3AD3DF 20.31%, #5AEFFB 47.4%, #00DBDE 82.81%);
 
 }
+.visionIcon{
+  display: flex;
+  align-items: center;
+  background: radial-gradient(50% 50% at 50% 50%, #0E5A71 0%, #1ABDCA 99.99%, #47ADB4 100%);
+  width: 160px;
+  height: 160px;
+  color: #fff;
+  
+}
 .iconsMain{
   height: 165px;
   width: 165px;

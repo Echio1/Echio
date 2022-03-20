@@ -85,8 +85,17 @@ body{
 
 }
 .card .details .content h2 span{
-    color: red;
     font-size: 1rem;
+}
+.card:hover .details .content h2{
+    font-size: 2rem;
+    transition: 1s;
+    margin-bottom: 12px;
+
+}
+
+.card:hover .details .content h2 span{
+    margin-top: 6px;
 }
 .card .details .content .social-icons{
     position: relative;
@@ -99,15 +108,20 @@ body{
     display: inline-block;
     width: 1.4em;
     height: 1.4em;
-    background-color: #09566E;
-    color: #E3FEF9;
+    /* background-color: #09566E; */
+    /* color: #E3FEF9; */
+    color: #09566E;
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    margin: 5px;
+    margin: 0;
     font-size: 18px;
     transition: 0.2s;
+}
+.card:hover .details .content .social-icons a{
+    margin:0 8px;
+    transition: 1.5s;
 }
 .card .details .content .social-icons a:hover{
     color: #fff;

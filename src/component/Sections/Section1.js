@@ -24,8 +24,8 @@ const Section1 = () => {
                         </div>
                     </div>
                 <div className="col-lg-6 col-sm-12">
-                    <div className="w-100 d-flex justify-content-center">
-                        <img style={{width:"70%"}} className="pt-5" src={pg1img1} alt="our clients" />
+                    <div className="w-100 d-flex justify-content-center ">
+                        <img style={{width:"70%"}} className="pt-5 content-to-hide" src={pg1img1} alt="our clients" />
                     </div>
                 </div>
                 

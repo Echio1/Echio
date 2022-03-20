@@ -14,12 +14,12 @@ function SlideCards(props){
                     </div>
                     <div className="details d-flex justify-content-center align-items-center">
                         <div className="content">
-                            <h2>{props.Head}<br/><span style={{color:"#35C5D0"}}>{props.Title}</span></h2>
+                            <h2 style={{}}>{props.Head}<br/><span style={{color:"#35C5D0", letterSpacing:"1px"}}>{props.Title}</span></h2>
                             <div className="social-icons">
-                                    <a href="#facebook" ><BsFacebook/></a>
-                                    <a href="#insta" ><BsInstagram/></a>
-                                    <a href="#twitter" ><BsTwitter/></a>
-                                    <a href="#github"><BsGithub/></a>
+                            <hr style={{width:"20%"}}/>
+                                    <a href="#facebook" ><BsFacebook size={"15px"}/></a>
+                                    <a href="#insta" ><BsInstagram   size={"15px"}/></a>
+                                    <hr style={{width:"20%"}}/>
                             </div>
 
                         </div>
