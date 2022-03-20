@@ -7,6 +7,7 @@ import client2  from '../../images/client2.png'
 import client3  from '../../images/client3.png'
 import client4  from '../../images/client4.png'
 import clientB  from '../../images/clientB.svg'
+import { Flip } from "react-reveal";
 
 const Section6 = () => {
     return (
@@ -20,18 +21,30 @@ const Section6 = () => {
             <div style={{marginBottom:"2rem"}} className="py-4">
                 <div className="row px-4 d-flex justify-content-center">
                 <div className="col-5">
+                    <Flip left>
                     <QCards Source={client1} Head="Angela" Text="Its been a great journey, Echio is a brand you can trust "/> 
+
+                    </Flip>
                 </div>
                 <div className="col-5">
+                <Flip left>
                     <QCards Source={client2} Head="Mark" Text="Its been a great journey, Echio is a brand you can trust "/> 
+
+                </Flip>
                 </div>
                 </div>
                 <div className="row px-4 d-flex justify-content-center">
                 <div className="col-5">
+                <Flip left>
                     <QCards Source={client3} Head="Bruce" Text="Its been a great journey, Echio is a brand you can trust "/> 
+
+                </Flip>
                 </div>
                 <div className="col-5">
+                <Flip left>
                     <QCards Source={client4} Head="Kety" Text="Its been a great journey, Echio is a brand you can trust "/> 
+
+                </Flip>
                 </div>
                 </div>
             </div>

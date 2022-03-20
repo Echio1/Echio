@@ -9,7 +9,7 @@ import "./section.css"
 const Section3 = () => {
     return (
       <>
-      <div className="cont">
+      <div className="cont ">
 
         {/******************** Influencers Section ********************/}
         <div id="influencers"  className="sec py-3">

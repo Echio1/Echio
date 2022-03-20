@@ -2,15 +2,18 @@ import React from "react"
 
 import "./section.css"
 
+import Fade from 'react-reveal/Fade';
+
 import pg1img1 from "../../images/pg1img1.svg"
 import pg1img2 from "../../images/pg1img2.svg"
 import pg1img3 from "../../images/pg1img3.svg"
 
 
+
 const Section1 = () => {
     return (
       <>
-      <div className="cont">
+      <div className="cont ">
 
         <div className="sec w-100 justify-content-center p-0 m-0 ">
         {/* 1st Row */}
