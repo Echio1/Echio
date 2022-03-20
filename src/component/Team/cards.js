@@ -1,9 +1,6 @@
 import React from "react"
 import './teamStyle.css'
-
-import {BsFacebook, BsInstagram,BsTwitter,BsGithub} from "react-icons/bs"
-
-
+import {BsFacebook, BsInstagram} from 'react-icons/bs'
 function SlideCards(props){
     return(
         <>

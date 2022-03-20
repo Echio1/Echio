@@ -3,7 +3,6 @@ import './FooterStyle.css'
 // import brandLogo from '../../images/brandLogo.svg'
 // import rocket  from '../../images/rocket.svg'
 // import { BsLinkedin, BsInstagram } from "react-icons/bs";
-import { FiFacebook  } from "react-icons/fi"
 import {FaDiscord,FaLinkedinIn, FaYoutube} from "react-icons/fa"
 import {RiInstagramFill} from "react-icons/ri"
 
