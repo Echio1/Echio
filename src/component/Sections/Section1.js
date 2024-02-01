@@ -2,7 +2,7 @@ import React from "react"
 
 import "./section.css"
 
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 
 import pg1img1 from "../../images/pg1img1.svg"
 import pg1img2 from "../../images/pg1img2.svg"
